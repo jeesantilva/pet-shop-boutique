@@ -1,0 +1,212 @@
+:root{
+    --cor-principal: #3c184e;
+    --cor-secundaria: #fff;
+    --cor-container: #d3d3d3c4;
+    --sombreado-topo: #1f26875e;
+    --sombreado-imagem: #0000005c;
+
+}
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: 
+    border-box; 
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 80px;
+    background-image: url(banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+
+}
+
+.logomarca{
+    max-width: 300px;
+    color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logomarca p{
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.logo h1{
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.logo img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.container-titulo{
+    max-width: 80%;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    border-radius: 5px;
+    background-color: var(--cor-container);
+    box-shadow: 0 8px 32px var(--sombreado-topo);
+}
+
+.container-titulo h2{
+    font-size: 60px;
+    color: var(--cor-principal);
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+
+.botao{
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--cor-principal);
+    font-size: 20px;
+    text-align: center;
+}
+
+.botao a{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.botao img{
+    width: 20px;
+}
+
+.secao-servico{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+h3{
+    color: var(--cor-principal);
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.container-lista{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: var(--cor-principal);
+}
+
+.container-lista ul li{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.texto-destaque{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.container-imagens{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.container-imagens .imagem{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px var(--sombreado-imagem);
+}
+
+.secao-contatos{
+    width: 100%;
+    background-color: var(--cor-principal);
+    padding: 120px 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.frase-contato{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: var(--cor-secundaria);
+    text-align: center;
+
+}
+
+.secao-contatos .links-externos a{
+    text-decoration: none;
+    margin: 0 20px;
+
+}
+
+.secao-contatos .links-externos a img{
+    width: 50px;
+    height: 50px;
+}
+
+.secao-marcas{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.container-imagens-marcas{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 50px;
+}
+
+.container-imagens-marcas .imagem-da-marca{
+    width: 148px;
+    height: 148px;
+
+}
+
+.secao-localizacao{
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.secao-localizacao p{
+    color: var(--cor-principal);
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 45px 0;
+
+}
+
+iframe{
+    width: 800px;
+    height: 450px;
+}
+
+.rodape{
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--cor-principal);
+}
+
+.rodape p{
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    text-align: center;
+}
